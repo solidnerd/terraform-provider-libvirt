@@ -46,8 +46,8 @@ The following arguments are supported:
 
 * `name` - (Required) A unique name for the resource, required by libvirt.
   Changing this forces a new resource to be created.
-* `pool` - (Optional) The pool where the resource will be created.
-  If not given, the `default` pool will be used.
+* `pool` - (Optional) The storage pool where the resource will be created.
+  If not given, the `default` storage pool will be used.
 * `source` - (Optional) If specified, the image will be uploaded into libvirt
   storage pool. It's possible to specify the path to a local (relative to the
   machine running the `terraform` command) image or a remote one. Remote images
@@ -59,8 +59,8 @@ The following arguments are supported:
 * `base_volume_name` - (Optional) The name of the backing volume (CoW) to use
   for this volume. Note well: when `base_volume_pool` is not specified the
   volume is going to be searched inside of `pool`.
-* `base_volume_pool` - (Optional) The name of the pool containing the volume
-  defined by `base_volume_name`.
+* `base_volume_pool` - (Optional) The name of the storage pool containing the
+  volume defined by `base_volume_name`.
 
 ## Attributes Reference
 

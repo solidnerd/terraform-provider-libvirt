@@ -9,7 +9,7 @@ description: |-
 # libvirt\_cloudinit
 
 Manages a [cloud-init](http://cloudinit.readthedocs.io/) ISO disk that can be
-used to customize a Domain during first boot.
+used to customize a domain during first boot.
 
 ## Example Usage
 

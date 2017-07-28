@@ -35,7 +35,7 @@ The following arguments are supported:
   information that will be used to create the Ignition file in the libvirt
   storage pool.  The `content` can be
   * The name of file that contains Ignition configuration data, or its contents
-  * A rendered Terraform Ignition object
+  * A rendered terraform Ignition object
 
 Any change of the above fields will cause a new resource to be created.
 
@@ -44,7 +44,7 @@ Any change of the above fields will cause a new resource to be created.
 The `libvirt_ignition` resource can be integrated with terraform
 [Ignition Provider](/docs/providers/ignition/index.html).
 
-An example where a Terraform ignition provider object is used:
+An example where a terraform ignition provider object is used:
 
 ```hcl
 # Systemd unit resource containing the unit definition

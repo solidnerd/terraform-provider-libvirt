@@ -190,7 +190,7 @@ When using a virtual network, users can specify:
 * `hostname` - (Optional) A hostname that will be assigned to this domain
   resource in this network.
 * `wait_for_lease`- (Optional) When creating the domain resource, wait until the
-  network interface gets a DHCP lease from libvirt, so that the computed ip
+  network interface gets a DHCP lease from libvirt, so that the computed IP
   addresses will be available when the domain is up and the plan applied.
 
 When connecting to a LAN, users can specify a target device with:

@@ -11,7 +11,7 @@ description: |-
 The Libvirt provider is used to interact with Linux
 [libvirt](https://libvirt.org) hypervisors.
 
-The provider needs to be configured with the proper connection informations
+The provider needs to be configured with the proper connection information
 before it can be used.
 
 ~> **Note:** while libvirt can be used with several types of hypervisors, this
